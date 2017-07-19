@@ -2,6 +2,7 @@
 
 [![Travis-CI Build Status](https://travis-ci.org/yutannihilation/K9.svg?branch=master)](https://travis-ci.org/yutannihilation/K9)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/yutannihilation/K9?branch=master&svg=true)](https://ci.appveyor.com/project/yutannihilation/K9)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/datadogr)](https://cran.r-project.org/package=datadogr)
 
 ## About
 
@@ -9,9 +10,16 @@ datadogr is a simple package for querying data from [Datadog](https://www.datado
 
 ## Installation
 
-datadogr is not on CRAN yet. You can install with `devtools::install_github()`
+datadogr is on CRAN now. You can install the released version from CRAN:
 
 ``` r
+install.packages("datadogr")
+```
+
+Or the the development version from GitHub:
+
+``` r
+# install.packages("devtools")
 devtools::install_github("yutannihilation/K9")
 ```
 
@@ -72,5 +80,5 @@ The result will look like this:
 (This function is a but experimental.)
 
 ``` r
-k9_events(start = Sys.Date() - 7, end = Sys.Date(), tags = list(role = "db"))
+k9_get_events(start = Sys.Date() - 7, end = Sys.Date(), tags = list(role = "db"))
 ```
