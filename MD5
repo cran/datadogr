@@ -1,12 +1,12 @@
-2b65cade34b1cc32c8e0c01fd44cf68e *DESCRIPTION
+f796f1f5977b3f964131ad4af1d4ce15 *DESCRIPTION
 27c7b5403894f7f7e964e24b630a4432 *LICENSE
-f99ec2ef8ee79db6c0fdfd76f7489afc *NAMESPACE
-2f85e1ad65c3bcd1b326ecb28904a129 *NEWS.md
+b9db825f2bb139f9cabf0b9da220114f *NAMESPACE
+0e28a1de738684b1004dae9f8511ee65 *NEWS.md
 e08c1dd2b18ed8ec1a32c5de272ada91 *R/K9-package.R
 29f106886c4458c7a8bfb40a7d36a4ee *R/K9_auth.R
 35e2aa9b84c76d60a7d1b5a4d708ff23 *R/K9_events.R
-b86feee212e525e84fef1752bdb382cc *R/K9_metrics.R
-372fd16332e4966c1317fbfa762c5f87 *R/util.R
+bef1572881a318d82b5d7905037557d2 *R/K9_metrics.R
+61780b7bf972a3eb48d997ef597ce528 *R/util.R
 0e6ac858b8476e47e28d1327140eddb4 *README.md
 9340e08f20344726e0c898a2e12402f4 *inst/extdata/get_metrics.json
 c3e765ff82bf466be10854c6c90f82c7 *inst/extdata/list_metrics.json
@@ -15,6 +15,7 @@ c3e765ff82bf466be10854c6c90f82c7 *inst/extdata/list_metrics.json
 92c5a7512cd68fd6ae96570cb40ee945 *man/k9_get_events.Rd
 aefacc73e590bcdeae6db835d6e0f7f3 *man/k9_get_metrics.Rd
 451c986f268d0de5a7316b240401f5d2 *man/k9_list_metrics.Rd
+138c6dd7a676f84ca1512ab30b84fec5 *man/k9_post_metric.Rd
 9b1345bb5d32964f0eb295f3b5ed922f *tests/testthat.R
 b29aa3847ca99fe563e6bf2c6e8e0c24 *tests/testthat/test-build_query.R
 911938377d836d31b903c0d81c373a95 *tests/testthat/test-extract-scope.R
